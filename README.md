@@ -7,7 +7,7 @@ Aplikasi perpustakaan digital modern dengan antarmuka yang elegan dan responsif.
 - **Koleksi Buku Dinamis** – Data buku (judul, penulis, kategori, halaman, rating, gambar, dan konten) diambil dari `data.json`.
 - **Pencarian & Filter** – Cari buku berdasarkan judul atau penulis, filter berdasarkan kategori yang otomatis muncul dari data.
 - **Bookmark** – Simpan buku favorit, lihat daftar bookmark, dan hapus bookmark kapan saja.
-- **Pembaca Buku (Reader)** – Baca buku per halaman dengan drop cap di halaman pertama, progress bar, navigasi tombol, swipe kiri/kanan (mobile), dan tombol panah keyboard.
+- **Pembaca Buku (Reader)** – Baca buku per halaman dengan drop cap di halaman pertama, progress bar, swipe (geser) kiri/kanan (mobile).
 - **Header Sembunyi Saat Scroll** – Pada halaman utama, header (judul, pencarian, kategori) akan tersembunyi saat scroll ke bawah dan muncul kembali saat scroll ke atas.
 - **Footer Fixed** – Navigasi bawah selalu terlihat, lebih pendek, dan tetap berada di posisi bawah layar.
 - **Responsif** – Tampilan optimal di mobile (max-width 500px) dan desktop (grid menyesuaikan hingga 4 kolom).
@@ -15,16 +15,20 @@ Aplikasi perpustakaan digital modern dengan antarmuka yang elegan dan responsif.
 
 ## Screenshot
 
-> **Catatan:** Letakkan file screenshot di folder `screenshots/` dengan nama sesuai di bawah ini. Contoh gambar dapat ditambahkan setelah membuka aplikasi di browser.
-
 ### Halaman Utama (Koleksi Buku)
-![Halaman Utama](screenshots/home.jpg)
+<div align="center">
+  <img src="screenshots/home.jpg" width="300" alt="Halaman Utama">
+</div>
 
 ### Halaman Bookmark
-![Halaman Bookmark](screenshots/bookmark.jpg)
+<div align="center">
+  <img src="screenshots/bookmark.jpg" width="300" alt="Halaman Bookmark">
+</div>
 
 ### Halaman Isi Buku (Reader)
-![Halaman Pembaca](screenshots/reader.jpg)
+<div align="center">
+  <img src="screenshots/reader.jpg" width="300" alt="Halaman Baca">
+</div>
 
 ## Struktur File
 ```markdown
@@ -34,7 +38,7 @@ root/
 ├── script.js
 ├── data.json
 ├── pictures/
-│   └── 1.jpg
+│   └── book.jpg
 └── screenshots/
     ├── home.jpg
     ├── bookmark.jpg
